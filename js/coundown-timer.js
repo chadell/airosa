@@ -46,6 +46,7 @@
 			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("second"); } else { thisEl.find(".timeRefSeconds").text("seconds"); }
 
 			//logic for the two_digits ON setting
+			settings['format'] = "on";
 			if(settings['format'] == "on") {
 				days = (String(days).length >= 2) ? days : "0" + days;
 				hours = (String(hours).length >= 2) ? hours : "0" + hours;
