@@ -18,7 +18,7 @@
 		//main countdown function
 		function countdown_proc() {
 
-			date = "2022-08-13T18:00:00";
+			date = "2023-08-12T18:00:00";
 			eventDate = Date.parse(date) / 1000
 			// eventDate = Date.parse(settings['date']) / 1000;
 			currentDate = Math.floor($.now() / 1000);
